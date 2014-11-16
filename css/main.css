@@ -1,0 +1,50 @@
+body{
+max-width: 800px;
+background: #eee;
+font-family: sans-serif;
+}
+header{
+margin-top: -35px;
+margin-left: -30px;
+background-color: #323232;
+}
+header h1{
+text-align: center;
+color: #eee;
+font-weight: 800;
+font-size: 50px;
+}
+header div{
+border-bottom: thick;
+border-style: solid;
+border-color: #474747;
+}
+nav{
+text-transform: uppercase;
+display:block;
+height: 75px;
+
+} 
+
+nav ul li{
+list-style: none;
+float: left;
+display:block;
+padding: 10px;
+font-family: sans-serif;
+font-size: 10px;
+}
+nav ul li a{
+text-decoration: none;
+/*color: rbga(0, 0, 0, 0.5)*/
+color: white;
+}
+nav ul li a:hover{
+color: #aaa;
+font-weight: 700;
+}
+#hero{
+height: 400px;
+background-color: #323232;
+margin-left: -30;
+}
