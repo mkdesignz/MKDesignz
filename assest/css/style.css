@@ -1,0 +1,125 @@
+body{
+   	background: #ccc;
+	overflow-x: hidden;
+	
+}
+/* pseudo class for things like the website highlighting */
+::selection{
+    color: red; 
+    background: yellow;
+}
+/*end pseudo class*/
+/* defualt nav look */
+nav{
+  	background: #373737;
+  	padding-bottom: 80px;
+  	left: -10px;
+  	padding-right: 80px;
+  	width: 100%;
+  	top: -20px;
+  	line-height:50px;
+  	position: relative;
+	
+}
+.left li a svg {
+  
+  height: auto;
+  max-width: 128px;
+}
+
+.left li a svg path{
+   fill: white;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a:hover{
+   color: #ff6b57;
+}
+
+.left li {
+   float: left;
+}
+.right{
+  margin-right: 55px;
+  }
+.right li a{
+  text-decoration: none;
+  float: right;  
+  padding-right: 25px;
+  padding-top: 15px;
+}
+
+ul li{
+ 	list-style: none;
+   text-decoration: none
+}
+
+ul li a{
+   color: #fefef2;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.left li a svg path:hover{
+	fill: #ff6b57;
+}
+/* end defualt nav look */
+
+/* how nav looks when window is scrolled down */
+ .fixed {
+	position: fixed;
+	height: 60px;
+   	padding-bottom:	0px !important;
+   	box-shadow: 3px 5px 15px rgba(0,0,0,0.45);
+}
+.fixed  .right li a{
+	text-decoration: none;
+	float: right;  
+	padding-right: 25px;
+	padding-top: 0px;
+}
+
+.fixed .left li a svg{
+	margin-top:  -20px;
+	height: auto;
+	max-width: 100px;
+}
+
+.mobile{
+	
+	
+	
+}
+.mobile li svg {
+	float: right;
+	height: auto;
+	display: none;
+	max-width: 32px;
+/*end nav */
+}
+
+.red{
+	height: 500px;
+	width: 100%;
+	display: block;
+	background: red;
+  
+}
+.green{
+	height: 500px;
+	width: 100%;
+	display: block;
+	background: green;
+  
+}
+

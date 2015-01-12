@@ -1,0 +1,12 @@
+@media screen and (max-width: 750px ){
+	nav .right li a{
+		
+		display: none;
+		
+	}
+	
+	.mobile li svg{
+		display: block !important;
+		
+	}
+}
