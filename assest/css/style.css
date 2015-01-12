@@ -18,6 +18,7 @@ nav{
   	width: 100%;
   	top: -20px;
   	line-height:50px;
+   
   	position: relative;
 	
 }
@@ -105,8 +106,26 @@ ul li a{
 	height: auto;
 	display: none;
 	max-width: 32px;
-/*end nav */
 }
+.mobile li svg path{
+fill: white;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.mobile li a svg path:hover{
+fill: #ff6b57;
+}
+
+.fixed .mobile li a svg{
+max-width: 21px !impotant;
+margin-top: -17px;
+}
+/*end nav */
+
 
 .red{
 	height: 500px;
