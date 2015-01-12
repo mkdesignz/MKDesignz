@@ -1,7 +1,7 @@
 body{
    	background: #ccc;
 	overflow-x: hidden;
-	
+
 }
 /* pseudo class for things like the website highlighting */
 ::selection{
@@ -12,14 +12,14 @@ body{
 /* defualt nav look */
 nav{
   	background: #373737;
-  	padding-bottom: 80px;
+  	
   	left: -10px;
   	padding-right: 80px;
   	width: 100%;
-  	top: -20px;
-  	line-height:50px;
+  	top: -21px;
+  	line-height: 15px;
    
-  	position: relative;
+  	position: fixed;
 	
 }
 .left li a svg {
@@ -78,7 +78,7 @@ ul li a{
 
 /* how nav looks when window is scrolled down */
  .fixed {
-	position: fixed;
+	
 	height: 60px;
    	padding-bottom:	0px !important;
    	box-shadow: 3px 5px 15px rgba(0,0,0,0.45);
