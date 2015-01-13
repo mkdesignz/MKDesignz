@@ -25,8 +25,8 @@ $(document).ready(function () {
 		}
 	});
     
-    $('mobileNavIcon').click(function () {
-        if ($('div').hasClass('active')) {
+    $('#mobileNavIcon').click(function () {
+        if ($('#mobile-warper).hasClass('active')) {
             $('div').removeClass('active');
                     
                     
