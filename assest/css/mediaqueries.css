@@ -10,7 +10,7 @@
 		
 	}
     
-.mobile li  ul .active li{
+.mobile li  .active ul li{
    display: block;
 }
 } 
