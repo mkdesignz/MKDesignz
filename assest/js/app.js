@@ -1,11 +1,12 @@
-$(document).ready(function() {
+$(document).ready(function () {
  
         //Calculate the height of <nav>
         //Use outerHeight() instead of height() if have padding
 	var navHeight = $('nav').outerHeight();
+  
  
 	//when scroll
-	$(window).scroll(function() {
+	$(window).scroll(function () {
  
 	        //if scrolled down more than the header’s height
 		if ($(window).scrollTop() > navHeight) {
@@ -23,4 +24,18 @@ $(document).ready(function() {
 			$('nav').removeClass('fixed');
 		}
 	});
+    
+    $('mobileNavIcon').click(function () {
+        if ($('div').hasClass('active')) {
+            $('div').removeClass('active');
+                    
+                    
+        } else {
+                    
+            $('div').addClass('active');
+        }
+                  
+                  
+    });
+    
 });

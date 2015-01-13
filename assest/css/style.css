@@ -11,8 +11,11 @@ body{
 /*end pseudo class*/
 /* defualt nav look */
 nav{
-  	background: #373737;
-  	
+  	background: rgba(50,50,50,1);
+    -o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
   	left: -10px;
   	padding-right: 80px;
   	height: 90px;
@@ -24,21 +27,21 @@ nav{
 	
 }
 .left li a svg{
-	margin-top: 25px;
-  display: block; 
-  height: 28px;
-  max-width: 128px;
+    margin-top: 25px;
+    display: block; 
+    height: 28px;
+    max-width: 128px;
 }
 
 .left li a svg path{
-   fill: white;
+    fill: white;
 	height: 28px;
 	max-width: 128px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a:hover{
@@ -49,13 +52,14 @@ a:hover{
    float: left;
 }
 .right{
-  margin-right: 55px;
+    margin-right: 55px;
   }
 .right li a{
-  text-decoration: none;
-  float: right;  
-  padding-right: 25px;
-  padding-top: 15px;
+    text-decoration: none;
+    float: right;  
+    margin-right: 25px;
+    margin-top: 15px;
+    height: 23px
 }
 
 ul li{
@@ -64,7 +68,7 @@ ul li{
 }
 
 ul li a{
-   color: #fefef2;
+   color: rgba(254,254,242,1);
 	font-size: 15px;
 	font-family: sans-serif;
 	text-transform: uppercase;
@@ -85,60 +89,124 @@ ul li a{
 	
 	height: 60px;
    	padding-bottom:	0px !important;
+    background: rgba(50,50,50,0.8);
    	box-shadow: 3px 5px 15px rgba(0,0,0,0.45);
 }
 .fixed  .right li a{
 	text-decoration: none;
 	float: right;  
-	padding-right: 25px;
-	padding-top: 0px;
+	margin-right: 25px;
+	margin-top: 0px;
 }
 
 .fixed .left li a svg{
+
 	margin: -25px 0;	
 	height: auto;
+    fill: rgba(254,254,242,0.8);
 	max-width: 100px;
 }
-
+.fixed .left li a svg path{
+fill: rgba(254,254,242,0.8);
+}
+.fixed li a svg path:hover{
+    fill: #ff6b57;
+}
 .mobile{
 	
-	
+
 	
 }
-.mobile li svg {
+.mobile li button{
+    height: 64px;
+    width: 64px;
+    float: right;
+    border-radius: 10px;
+    border-style: none;
+    background: rgba(50,50,50,1);
+    rgba(50,50,50,1);
+}
+
+.mobile li button span{
+    -o-transition:.800ms;
+    -ms-transition: 800ms;
+    -moz-transition: 800ms;
+    -webkit-transition:800ms;
+    transition: 800ms;
+    float: inherit;
+    display: inline-block;
+    margin: 0.5em;
+    background: white;
+    height: 8px;
+    width: 32px;
+    
+    border-radius: 10px;
+}
+.mobile li button:hover span{
+    background:  #ff6b57;
+}
+.mobile li a svg {
 	float: right;
+    
 	height: auto;
 	display: none;
 	max-width: 32px;
 }
+
 .mobile li svg path{
 fill: white;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition:.800ms;
+  -ms-transition: 800ms;
+  -moz-transition: 800ms;
+  -webkit-transition:800ms;
+  transition: 800ms;
 }
 
-.mobile li a svg path:hover{
+.mobile li button svg path:hover{
 fill: #ff6b57;
 }
 
-.fixed .mobile li a svg{
+.mobile li ul{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: -5px;
+    width: 100%;
+    float: right;
+    background: rgba(50,50,50,1);
+
+}
+.mobile li  ul li{
+   display: none;
+}
+.mobile li  ul li a{
+    color: pink;
+    text-decoration: none;
+    
+  /*  border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: medium;*/
+}
+
+.fixed .mobile li button svg{
+    
 max-width: 21px !impotant;
 margin-top: -17px;
 }
+
+
+
+
 /*end nav */
 
 
-.red{
+.green{
 	height: 500px;
 	width: 100%;
 	display: block;
 	background: #fefef2;
   
 }
-.green{
+.red{
 	height: 500px;
 	width: 100%;
 	display: block;
