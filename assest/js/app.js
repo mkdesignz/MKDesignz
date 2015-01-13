@@ -2,7 +2,7 @@ $(document).ready(function() {
  
         //Calculate the height of <nav>
         //Use outerHeight() instead of height() if have padding
-	var navHeight = $('nav').height();
+	var navHeight = $('nav').outerHeight();
  
 	//when scroll
 	$(window).scroll(function() {

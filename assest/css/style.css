@@ -15,21 +15,25 @@ nav{
   	
   	left: -10px;
   	padding-right: 80px;
+  	height: 90px;
   	width: 100%;
-  	top: -21px;
-  	line-height: 15px;
+  	top: -10px;
+  	line-height: 40px;
    
   	position: fixed;
 	
 }
-.left li a svg {
-  
-  height: auto;
+.left li a svg{
+	margin-top: 25px;
+  display: block; 
+  height: 28px;
   max-width: 128px;
 }
 
 .left li a svg path{
    fill: white;
+	height: 28px;
+	max-width: 128px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -71,7 +75,7 @@ ul li a{
 	transition:.5s;
 }
 
-.left li a svg path:hover{
+.left li a:hover svg path{
 	fill: #ff6b57;
 }
 /* end defualt nav look */
@@ -91,7 +95,7 @@ ul li a{
 }
 
 .fixed .left li a svg{
-	margin-top:  -20px;
+	margin: -25px 0;	
 	height: auto;
 	max-width: 100px;
 }
@@ -131,14 +135,14 @@ margin-top: -17px;
 	height: 500px;
 	width: 100%;
 	display: block;
-	background: red;
+	background: #fefef2;
   
 }
 .green{
 	height: 500px;
 	width: 100%;
 	display: block;
-	background: green;
+	background: #ff6b57;
   
 }
 
