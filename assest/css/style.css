@@ -12,10 +12,12 @@ body{
 /* defualt nav look */
 nav{
   	background: rgba(50,50,50,1);
-    -o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
+    -o-transition:.800ms;
+    -ms-transition: 800ms;
+    -moz-transition: 800ms;
+    -webkit-transition:800ms;
+    transition: 800ms;
+
   	left: -10px;
   	padding-right: 80px;
   	height: 90px;
@@ -27,6 +29,7 @@ nav{
 	
 }
 .left li a svg{
+ 
     margin-top: 25px;
     display: block; 
     height: 28px;
@@ -37,11 +40,11 @@ nav{
     fill: white;
 	height: 28px;
 	max-width: 128px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+	 -o-transition:.800ms;
+   -ms-transition: 800ms;
+   -moz-transition: 800ms;
+   -webkit-transition:800ms;
+   transition: 800ms;
 }
 
 a:hover{
@@ -72,11 +75,11 @@ ul li a{
 	font-size: 15px;
 	font-family: sans-serif;
 	text-transform: uppercase;
-	-o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
-	transition:.5s;
+	-o-transition:800ms;
+	-ms-transition: 800ms;
+	-moz-transition:800ms;
+	-webkit-transition:.800ms;
+	transition:800ms;
 }
 
 .left li a:hover svg path{
@@ -104,7 +107,7 @@ ul li a{
 
 	margin: -25px 0;	
 	height: auto;
-    fill: rgba(254,254,242,0.8);
+    fill: rgba(254,254,242,0.8    );
 	max-width: 100px;
 }
 .fixed .left li a svg path{
@@ -119,12 +122,17 @@ fill: rgba(254,254,242,0.8);
 	
 }
 .mobile li button{
+    -o-transition:.800ms;
+    -ms-transition: 800ms;
+    -moz-transition: 800ms;
+    -webkit-transition:800ms;
+    transition: 800ms;
     height: 64px;
     width: 64px;
     float: right;
     border-radius: 10px;
     border-style: none;
-    background: rgba(50,50,50,1);
+    background: none;
     
 	display: none;
 }
@@ -175,13 +183,18 @@ fill: #ff6b57;
     width: 100%;
     float: right;
     background: rgba(50,50,50,1);
+    -o-transition:.800ms;
+    -ms-transition: 800ms;
+    -moz-transition: 800ms;
+    -webkit-transition:800ms;
+    transition: 800ms;
 
 }
 .mobile li  ul li{
    display: none;
 }
 .mobile li  ul li a{
-    color: pink;
+    color: rgba(254,254,242,1);;
     text-decoration: none;
     
   /*  border-bottom-color: black;
@@ -195,18 +208,23 @@ max-width: 21px !impotant;
 margin-top: -17px;
 }
 .fixed .mobile li button{
-	 background: rgba(50,50,50,.08);
+	 background:none;
 	height: 42px;
 	width: 42px;
 }
 .fixed .mobile li button span{
 	height: 4px;
     width: 20px;
-	 margin: 0.2em;
+	 margin: 0.05em;
 	 background: rgba(254,254,242,0.8);
 }
 
-
+.fixed .mobile li ul{
+ margin: 1px 20px;
+ background: rgba(50,50,50,0.95
+ );
+ color: rgba(254,254,242,0.8);
+}
 
 /*end nav */
 
