@@ -143,10 +143,10 @@ fill: rgba(254,254,242,0.8);
     width: 32px;
     
     border-radius: 10px;
-}
+}/*
 .mobile li button:hover span{
     background:  #ff6b57;
-}
+}*/
 .mobile li a svg {
 	float: right;
     
