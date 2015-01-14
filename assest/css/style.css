@@ -5,8 +5,8 @@ body{
 }
 /* pseudo class for things like the website highlighting */
 ::selection{
-    color: red; 
-    background: yellow;
+    color: white; 
+    background: blue;
 }
 /*end pseudo class*/
 /* defualt nav look */
@@ -95,6 +95,7 @@ ul li a{
 .fixed  .right li a{
 	text-decoration: none;
 	float: right;  
+	color: rgba(254,254,242,0.8);
 	margin-right: 25px;
 	margin-top: 0px;
 }
@@ -124,7 +125,8 @@ fill: rgba(254,254,242,0.8);
     border-radius: 10px;
     border-style: none;
     background: rgba(50,50,50,1);
-    rgba(50,50,50,1);
+    
+	display: none;
 }
 
 .mobile li button span{
@@ -192,7 +194,17 @@ fill: #ff6b57;
 max-width: 21px !impotant;
 margin-top: -17px;
 }
-
+.fixed .mobile li button{
+	 background: rgba(50,50,50,.08);
+	height: 42px;
+	width: 42px;
+}
+.fixed .mobile li button span{
+	height: 4px;
+    width: 20px;
+	 margin: 0.2em;
+	 background: rgba(254,254,242,0.8);
+}
 
 
 
