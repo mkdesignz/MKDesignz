@@ -24,7 +24,7 @@ $(document).ready(function () {
 			$('nav').removeClass('fixed');
 		}
 	});
-    
+    //when nav icon is clicked if the menu is active remove class active otherwise add class active to nToggle.
     $('#mobileNavIcon').click(function () {
         if ($('#nToggle').hasClass('active')) {
             $('#nToggle').removeClass('active');
