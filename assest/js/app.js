@@ -15,13 +15,15 @@ $(document).ready(function () {
 	        // add padding top to the #content 
                // (value is same as the height of the nav)
 			$('nav').addClass('fixed');
-                
+          	$('#nToggle').removeClass('active');
+      
  
 		} else {
  
 	        // when scroll up or less than aboveHeight,
                // remove the “fixed” class, and the padding-top
 			$('nav').removeClass('fixed');
+			
 		}
 	});
     //when nav icon is clicked if the menu is active remove class active otherwise add class active to nToggle.
@@ -32,7 +34,7 @@ $(document).ready(function () {
                     
         } else {
                     
-            $('div').addClass('active');
+            $('#nToggle').addClass('active');
         }
                   
                   
