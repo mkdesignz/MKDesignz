@@ -1,7 +1,7 @@
 body{
    	background: #ccc;
 	overflow-x: hidden;
-
+	margin: 0px 0px;
 }
 /* pseudo class for things like the website highlighting */
 ::selection{
@@ -49,6 +49,7 @@ nav{
 
 a:hover{
    color: #ff6b57;
+	
 }
 
 .left li {
@@ -178,10 +179,10 @@ fill: #ff6b57;
 
 .mobile li ul{
     display: inline-block;
-    margin-top: 10px;
-    margin-right: -5px;
+    margin: 10px 0px;
+    
     width: 100%;
-    float: right;
+    
     background: rgba(50,50,50,1);
     -o-transition:.800ms;
     -ms-transition: 800ms;
@@ -207,8 +208,12 @@ fill: #ff6b57;
     max-width: 21px !impotant;
     margin-top: -17px;
 }
+.fixed li a:hover{
+	color: #ff6b57;
+	fill: #ff6b57;
+}
 .fixed .mobile li button{
-	 background:none;
+	background:none;
 	height: 42px;
 	width: 42px;
 }
@@ -236,6 +241,28 @@ fill: #ff6b57;
 	background: #fefef2;
   
 }
+
+.fa-caret-down {
+	color: #fefef2;
+	-o-transition:.800ms;
+	-ms-transition: 800ms;
+	-moz-transition: 800ms;
+	-webkit-transition:800ms;
+	transition: 800ms;
+	float: right;
+	line-height: 10px;
+	margin-right: -102px;
+	margin-top: 26px;
+	
+}
+.fa-caret-down:hover {
+	color: #ff6b57;
+}
+
+.fixed .fa-caret-down{
+	color: rgba(254,254,242,0.8);
+	margin-top: 12px;
+}
 .red{
 	height: 500px;
 	width: 100%;
@@ -243,4 +270,9 @@ fill: #ff6b57;
 	background: #ff6b57;
   
 }
+
+
+
+
+
 
