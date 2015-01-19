@@ -4,7 +4,9 @@
 		display: none;
 		
 	}
-	
+	#dropdown.active {
+	display: none;
+	}
 	.mobile li button svg{
 		display: block !important;
 		
@@ -17,7 +19,3 @@
 }
 	
 } 
-
-#disqus_thread {
-		background: #fefef2;
-}

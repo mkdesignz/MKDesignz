@@ -2,6 +2,8 @@ body{
    	background: #ccc;
 	overflow-x: hidden;
 	margin: 0px 0px;
+	
+
 }
 /* pseudo class for things like the website highlighting */
 ::selection{
@@ -146,7 +148,7 @@ fill: rgba(254,254,242,0.8);
     transition: 800ms;
     float: inherit;
     display: inline-block;
-    margin: 0.5em;
+    margin: 0.25em;
     background: white;
     height: 8px;
     width: 32px;
@@ -276,3 +278,31 @@ fill: #ff6b57;
 
 
 
+
+#dropdown {
+	display: none;
+	position: absolute;
+	height: 8pc;
+	width: 8pc;
+	top: 35px;
+	
+	width: 5pc;
+	right: 21.5pc;
+	margin: auto;
+	background: #323232;
+	top: 4.5pc;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+
+}
+
+#dropdown.active{
+	display: block;
+}
+
+
+
+#disqus_thread {
+	background: #fefef2;
+}

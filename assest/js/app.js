@@ -15,7 +15,7 @@ $(document).ready(function () {
 	        // add padding top to the #content 
                // (value is same as the height of the nav)
 			$('nav').addClass('fixed');
-          	$('#nToggle').removeClass('active');
+			$('#nToggle').removeClass('active');
       
  
 		} else {
@@ -28,16 +28,13 @@ $(document).ready(function () {
 	});
     //when nav icon is clicked if the menu is active remove class active otherwise add class active to nToggle.
     $('#mobileNavIcon').click(function () {
-        if ($('#nToggle').hasClass('active')) {
-            $('#nToggle').removeClass('active');
+        
+		$('#nToggle').toggleClass('active');
+	});
+    $('.fa-caret-down').click(function () {
+		
+		$('#dropdown').toggleClass('active');
                     
-                    
-        } else {
-                    
-            $('#nToggle').addClass('active');
-        }
-                  
-                  
-    });
-    
+	});
+	
 });
